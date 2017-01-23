@@ -5,6 +5,7 @@ class Profile extends Component {
     return (
       <section>
         <h3>Profile</h3>
+
         <p>Lifelong technology enthusiast, software fanatic, and overall computer
         dork.</p>
 
