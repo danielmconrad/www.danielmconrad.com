@@ -1,118 +1,53 @@
-@page {
-  size: 8.5in 11in;
-  margin: 2.5cm 1.5cm 1cm;
-}
-
-@page :first {
+* {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 
 html {
-  font-size: 62.5%
+    font-size: 62.5%;
 }
 
 body {
-  color: #333;
-  font-family: 'Open Sans', sans-serif;
+  margin: 0;
+  padding: 0;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-size: 2rem;
   font-weight: 300;
+  color: #666;
 }
 
-@media screen {
-  body {
-    background: #f8f8f8;
-    font-size: 1.6em;
-    line-height: 1.6;
-    padding: 2rem;
-  }
-}
-
-@media print {
-  body {
-    font-size: 1.1em;
-    line-height: 1.5;
-    overflow: visible;
-  }
-}
-
-@page {
-  size: auto;
-  bleed: 0;
-}
-
-a {
-  color: currentColor;
-  text-decoration: none;
-  transition: color 0.4s ease-in-out;
-}
-
-a:hover {
-  color: #333;
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 300;
-  color: #999;
+h1, h2 {
+  font-weight: 200;
 }
 
 h1 {
+  font-size: 4.8rem;
   color: #222;
 }
 
-h2, h3 {
-  color: rgb(91, 149, 255);
+h2 {
+  font-size: 3.6rem;
+  color: #5B95FF;
 }
 
-h3 {
-  text-transform: uppercase;
+ins {
+  color: #999;
 }
 
-@media screen {
-  h1 {
-    font-size: 3.2rem;
-  }
-  h2 {
-    font-size: 2.6rem;
-  }
-  h3 {
-    font-size: 2.2rem;
-  }
+strong {
+  color: #222;
+  font-weight: normal;
 }
 
-@media print {
-  h1 {
-    font-size: 2.2rem;
-  }
-
-  h2 {
-    font-size: 1.6rem;
-  }
-
-  h3 {
-    font-size: 1.2rem;
-  }
+a {
+  color: #666;
 }
 
-section {
-  margin-bottom: 2rem;
+a, a * {
+  transition: color 0.4s, text-shadow 0.4s;
+  text-decoration: none;
 }
 
-.fa {
-  vertical-align: text-bottom;
-  padding: 0 0.5rem;
-  line-height: 1.45em;
-}
-
-@media print {
-  .page-break {
-    page-break-before: always;
-  }
-}
-
-.pure-g {
-  margin: 0 -1rem;
-}
-
-.pure-g [class *="pure-u"] {
-  font-family: 'Open Sans', sans-serif;
-  padding: 0 1rem;
-  box-sizing: border-box;
+a:hover, a:hover * {
+  color: #5B95FF;
 }
