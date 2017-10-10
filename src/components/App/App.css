@@ -1,11 +1,17 @@
 :local .App {
-
+  display: flex;
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 4em;
 }
 
 :local .Header {
-
+  flex: 1;
+  padding: 0 1em 0 0;
+  border-right: 1px solid #ddd;
 }
 
 :local .Body {
-
+  flex: 2;
+  padding: 1em 0 0 7em;
 }

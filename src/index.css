@@ -23,11 +23,14 @@ h1, h2 {
 h1 {
   font-size: 4.8rem;
   color: #222;
+  margin-left: -0.05em;
+  margin-top: 0.8em;
 }
 
 h2 {
   font-size: 3.6rem;
   color: #5B95FF;
+  margin-bottom: 1.2em;
 }
 
 ins {
@@ -40,7 +43,7 @@ strong {
 }
 
 a {
-  color: #666;
+  color: #333;
 }
 
 a, a * {
@@ -50,4 +53,8 @@ a, a * {
 
 a:hover, a:hover * {
   color: #5B95FF;
+}
+
+section {
+  margin-bottom: 6em;
 }

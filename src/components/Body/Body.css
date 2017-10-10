@@ -2,10 +2,21 @@
 
 }
 
-:local .mediumIcon {
-
+:local .workItem {
+  display: flex;
+  margin-bottom: 2em;
 }
 
-:local .rtIcon {
+:local .workItemIconContainer {
+  padding: 0 1em 0 0;
+}
 
+:local .workItemTitle {
+  font-size: 1.25em;
+  margin: 0.2em 0;
+}
+
+:local .Icon {
+  font-size: 2em;
+  margin-top: -0.2em;
 }

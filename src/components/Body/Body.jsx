@@ -32,26 +32,33 @@ const Body = (props) => (
     <section>
       <h2>Recent Work</h2>
 
-      <ul>
-        <li>
-          <a href="#THELINK">
-            <Icon type="medium" />
+      <div className={styles.workItem}>
+        <div className={styles.workItemIconContainer}>
+          <Icon type="medium" className={styles.Icon} />
+        </div>
+        <div>
+          <a href="#THELINK" className={styles.workItemTitle}>
             Using a PS4 Controller to Move a Robot
           </a>
-        </li>
-        <li>
-          <a href="#THELINK">
-            <Icon type="reviewtrackers" />
-            Some Article at ReviewTrackers
-          </a>
-        </li>
-        <li>
-          <a href="#THELINK">
-            <Icon type="medium" />
+          <p>I created a python package that greatly simplifies interacting with
+            a PS4 controller in any project. This is part of an ongoing series
+            to teach a robot how to self navigate.</p>
+        </div>
+      </div>
+
+      <div className={styles.workItem}>
+        <div className={styles.workItemIconContainer}>
+          <Icon type="medium" className={styles.Icon} />
+        </div>
+        <div>
+          <a href="#THELINK" className={styles.workItemTitle}>
             DIY Minimalist Weather Display (built in ReactJS and RaspberryPi)
           </a>
-        </li>
-      </ul>
+          <p>I created a python package that greatly simplifies interacting with
+            a PS4 controller in any project. This is part of an ongoing series
+            to teach a robot how to self navigate.</p>
+        </div>
+      </div>
     </section>
   </div>
 );

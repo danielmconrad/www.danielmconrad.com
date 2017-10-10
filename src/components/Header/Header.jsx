@@ -11,34 +11,34 @@ const Header = (props) => (
     <h2>Full Stack Engineer</h2>
 
     <nav>
-      <ul>
+      <ul className={styles.nav}>
         <li>
-          <a href="#THELINK">
-            <Icon type="gmail" />
+          <a href="mailto:danmconrad@gmail.com">
+            <Icon type="google" className={styles.Icon} />
             <strong>danmconrad</strong><ins>@gmail.com</ins>
           </a>
         </li>
         <li>
-          <a href="#THELINK">
-            <Icon type="linkedin" />
+          <a href="https://www.linkedin.com/in/danmconrad/">
+            <Icon type="linkedin" className={styles.Icon} />
             <ins>linkedin.com/in/</ins><strong>danmconrad</strong>
           </a>
         </li>
         <li>
-          <a href="#THELINK">
-            <Icon type="github" />
+          <a href="https://github.com/danmconrad">
+            <Icon type="github" className={styles.Icon} />
             <ins>github.com/</ins><strong>danmconrad</strong>
           </a>
         </li>
         <li>
-          <a href="#THELINK">
-            <Icon type="medium" />
+          <a href="https://medium.com/@danmconrad">
+            <Icon type="medium" className={styles.Icon} />
             <ins>medium.com/@</ins><strong>danmconrad</strong>
           </a>
         </li>
         <li>
-          <a href="#THELINK">
-            <Icon type="resume" />
+          <a href="http://cv.danmconrad.com">
+            <Icon type="resume" className={styles.Icon} />
             <strong>printable resume</strong>
           </a>
         </li>

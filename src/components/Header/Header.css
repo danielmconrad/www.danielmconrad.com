@@ -1,3 +1,23 @@
 :local .Header {
 
 }
+
+:local .nav {
+  margin: 5em 0 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+:local .nav li {
+  margin: 0;
+  padding: 0;
+}
+
+:local .nav a {
+  padding: 1em 0;
+  display: block;
+}
+
+:local .Icon {
+  margin-right: 0.5em;
+}
