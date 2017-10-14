@@ -5,8 +5,8 @@ import styles from './App.css';
 
 const App = () => (
   <div className={styles.App}>
-    <Header className={styles.Header} />
-    <Body className={styles.Body} />
+    <Header />
+    <Body />
   </div>
 );
 

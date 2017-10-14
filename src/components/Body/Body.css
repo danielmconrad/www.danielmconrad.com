@@ -3,20 +3,44 @@
 }
 
 :local .workItem {
-  display: flex;
   margin-bottom: 2em;
 }
 
 :local .workItemIconContainer {
-  padding: 0 1em 0 0;
+  display: inline-block;
+  width: 4em;
+  vertical-align: top;
+}
+
+:local .icon {
+  font-size: 2em;
+  margin-top: -0.2em;
 }
 
 :local .workItemTitle {
+  display: inline-block;
   font-size: 1.25em;
   margin: 0.2em 0;
+  width: calc(100% - 4em);
 }
 
-:local .Icon {
-  font-size: 2em;
-  margin-top: -0.2em;
+:local .workItemDescription {
+  width: 100%;
+  padding: 0.4em;
+}
+
+@media (min-width: 580px) {
+  :local .workItemDescription {
+    padding: 0 0 0 4em;
+  }
+}
+
+/*
+  BREAKPOINT: Desktop
+*/
+@media (min-width: 1280px) {
+  :local .Body {
+    flex: 2;
+    padding: 1em 0 0 7em;
+  }
 }

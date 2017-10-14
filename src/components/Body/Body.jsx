@@ -28,12 +28,12 @@ const Body = (props) => (
 
       <div className={styles.workItem}>
         <div className={styles.workItemIconContainer}>
-          <Icon type="medium" className={styles.Icon} />
+          <Icon type="medium" className={styles.icon} />
         </div>
-        <div>
-          <a href="https://goo.gl/VEs2mW" className={styles.workItemTitle}>
-            DIY Minimalist Weather Display (ReactJS + RaspberryPi)
-          </a>
+        <a href="https://goo.gl/VEs2mW" className={styles.workItemTitle}>
+          DIY Minimalist Weather Display (ReactJS + RaspberryPi)
+        </a>
+        <div className={styles.workItemDescription}>
           <p>
             Weather monitors are all over the place. They're one of those
             little projects that countless people post on Reddit. Some have

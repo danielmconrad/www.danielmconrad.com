@@ -1,17 +1,27 @@
 :local .App {
   display: flex;
-  max-width: 1280px;
+  max-width: 1440px;
   margin: 0 auto;
-  padding: 4em;
+  padding: 2em;
+  flex-direction: column;
 }
 
-:local .Header {
-  flex: 1;
-  padding: 0 1em 0 0;
-  border-right: 1px solid #ddd;
+
+/*
+  BREAKPOINT: iPad
+*/
+@media (min-width: 768px) {
+  :local .App {
+    text-align: left;
+    padding: 4em;
+  }
 }
 
-:local .Body {
-  flex: 2;
-  padding: 1em 0 0 7em;
+/*
+  BREAKPOINT: Desktop
+*/
+@media (min-width: 1280px) {
+  :local .App {
+    flex-direction: row;
+  }
 }

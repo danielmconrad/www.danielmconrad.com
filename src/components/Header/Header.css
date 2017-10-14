@@ -1,5 +1,6 @@
 :local .Header {
-
+  padding: 0 0 5em;
+    text-align: center;
 }
 
 :local .nav {
@@ -11,13 +12,44 @@
 :local .nav li {
   margin: 0;
   padding: 0;
-}
-
-:local .nav a {
-  padding: 1em 0;
   display: block;
 }
 
-:local .Icon {
+:local .nav a {
+  padding: 1em 1em 0 0;
+  display: block;
+}
+
+:local .icon {
   margin-right: 0.5em;
+}
+
+
+/*
+  BREAKPOINT: Phablet
+*/
+@media (min-width: 580px) {
+  :local .Header {
+    text-align: left;
+  }
+
+  :local .nav li {
+    display: inline-block;
+    padding-right: 2em;
+  }
+}
+
+/*
+  BREAKPOINT: Desktop
+*/
+@media (min-width: 1280px) {
+  :local .Header {
+    flex: 1;
+    padding: 0 1em 0 0;
+    border-right: 1px solid #ddd;
+  }
+
+  :local .nav li {
+    display: block;
+  }
 }
