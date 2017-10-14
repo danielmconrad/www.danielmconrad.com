@@ -22,8 +22,6 @@
   list-style-type: none;
 }
 
-
-
 :local .navList li {
   margin: 0;
   padding: 0;
@@ -31,7 +29,7 @@
 }
 
 :local .navList a {
-  padding: 1em 1em 1em 0;
+  padding: 1em 0.5em 1em 0;
   display: block;
 }
 
