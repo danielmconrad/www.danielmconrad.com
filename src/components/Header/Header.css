@@ -1,6 +1,6 @@
 :local .Header {
-  padding: 0 0 5em;
-    text-align: center;
+  padding: 2em 0 5em;
+  text-align: center;
 }
 
 :local .nav {
@@ -16,7 +16,7 @@
 }
 
 :local .nav a {
-  padding: 1em 1em 0 0;
+  padding: 1em 1em 1em 0;
   display: block;
 }
 
@@ -30,6 +30,7 @@
 */
 @media (min-width: 580px) {
   :local .Header {
+    padding: 0 0 5em;
     text-align: left;
   }
 
