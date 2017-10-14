@@ -6,7 +6,6 @@
 
 html {
   font-size: 6px;
-  transition: font-size 0.4s;
 }
 
 @media (min-width: 320px) {

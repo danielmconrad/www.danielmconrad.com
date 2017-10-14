@@ -1,21 +1,36 @@
 :local .Header {
   padding: 2em 0 5em;
   text-align: center;
+  overflow: hidden;
 }
 
 :local .nav {
+  opacity: 0;
+  margin-left: 4em;
+  width: 100%;
+  transition: opacity 1s, margin 1s;
+}
+
+:local .navVisible {
+  opacity: 1;
+  margin-left: 0;
+}
+
+:local .navList {
   margin: 5em 0 0;
   padding: 0;
   list-style-type: none;
 }
 
-:local .nav li {
+
+
+:local .navList li {
   margin: 0;
   padding: 0;
   display: block;
 }
 
-:local .nav a {
+:local .navList a {
   padding: 1em 1em 1em 0;
   display: block;
 }
@@ -47,7 +62,6 @@
   :local .Header {
     flex: 1;
     padding: 0 1em 0 0;
-    border-right: 1px solid #ddd;
   }
 
   :local .nav li {

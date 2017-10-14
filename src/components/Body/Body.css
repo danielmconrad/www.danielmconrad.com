@@ -1,5 +1,10 @@
 :local .Body {
+  transition: opacity 0.8s;
+  opacity: 0;
+}
 
+:local .visible {
+  opacity: 1;
 }
 
 :local .workItem {
@@ -42,5 +47,6 @@
   :local .Body {
     flex: 2;
     padding: 1em 0 0 7em;
+    border-left: 1px solid #ddd;
   }
 }
