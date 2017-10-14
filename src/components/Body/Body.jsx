@@ -15,7 +15,7 @@ const Body = (props) => (
       </p>
 
       <p>
-        <strong>Professionally</strong>, I'm a full stack engineer and strong technical leader with a focus on lean and agile approaches to solving today's product challenges. I have a wide range of experience, and an innate ability to quickly identify underlying business requirements and build efficient, scalable, and secure web architectures. I have an extremely vigilant eye for design implementation and adherence to web best-practices, accompanied by an ability to construct standards to be used by other developers.
+        <strong>Professionally</strong>, I'm a full stack engineer and strong technical leader with a focus on lean and agile approaches to solving today's product challenges. I have a wide range of experience, and an innate ability to quickly identify underlying business requirements and build efficient, scalable, and secure web architectures. I have an extremely vigilant eye for design implementation and adherence to web best-practices, accompanied by a drive to construct team coding standards.
       </p>
 
       <p>
