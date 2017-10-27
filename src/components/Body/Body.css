@@ -1,10 +1,19 @@
-:local .Body {
-  transition: opacity 0.8s;
-  opacity: 0;
+@keyframes :local(fadeInBody) {
+  0% {
+    opacity: 0;
+  }
+
+  66% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
 }
 
-:local .visible {
-  opacity: 1;
+:local .Body :local {
+  animation: fadeInBody 3s;
 }
 
 :local .workItem {

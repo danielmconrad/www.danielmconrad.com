@@ -1,19 +1,42 @@
-:local .Header {
+@keyframes :local(fadeInHeader) {
+  0% {
+    opacity: 0;
+  }
+
+  20% {
+    opacity: 0;
+  }
+
+  100% {
+    opacity: 1;
+  }
+}
+
+:local .Header :local {
   padding: 2em 0 5em;
   text-align: center;
-  overflow: hidden;
+  animation: fadeInHeader 1s;
 }
 
-:local .nav {
-  opacity: 0;
-  margin-left: 4em;
-  width: 100%;
-  transition: opacity 1s, margin 1s;
+@keyframes :local(fadeInNav) {
+  0% {
+    opacity: 0;
+    transform: translate3d(4em, 0, 0);
+  }
+
+  50% {
+    opacity: 0;
+    transform: translate3d(4em, 0, 0);
+  }
+
+  100% {
+    transform: none;
+    opacity: 1;
+  }
 }
 
-:local .navVisible {
-  opacity: 1;
-  margin-left: 0;
+:local .nav :local {
+  animation: fadeInNav 2s;
 }
 
 :local .navList {
