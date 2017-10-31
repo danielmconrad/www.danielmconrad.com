@@ -40,7 +40,7 @@ const Body = (props) => (
             integrations with Google Calendars, Twitter accounts, and a ton of
             other neat features. But there's always one major gripe I have
             with them: they're way too busy, and impossible to read from a
-            few feat away. I wanted one that I could see and understand from my
+            few feet away. I wanted one that I could see and understand from my
             bed…
           </p>
         </div>
