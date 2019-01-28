@@ -7,37 +7,37 @@ import styles from './Header.css';
 
 const Header = (props) => (
   <header className={cx(styles.Header, props.className)}>
-    <h1>Dan M Conrad</h1>
+    <h1>Daniel M Conrad</h1>
     <h2>Full Stack Engineer</h2>
 
     <nav className={styles.nav}>
       <ul className={styles.navList}>
         <li>
-          <a href="mailto:danmconrad@gmail.com">
+          <a href="mailto:danielmconrad@gmail.com">
             <Icon type="google" className={styles.icon} />
-            <strong>danmconrad</strong><ins>@gmail.com</ins>
+            <strong>danielmconrad</strong><ins>@gmail.com</ins>
           </a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/danmconrad/">
+          <a href="https://www.linkedin.com/in/danielmconrad/">
             <Icon type="linkedin" className={styles.icon} />
-            <ins>linkedin.com/in/</ins><strong>danmconrad</strong>
+            <ins>linkedin.com/in/</ins><strong>danielmconrad</strong>
           </a>
         </li>
         <li>
-          <a href="https://github.com/danmconrad">
+          <a href="https://github.com/danielmconrad">
             <Icon type="github" className={styles.icon} />
-            <ins>github.com/</ins><strong>danmconrad</strong>
+            <ins>github.com/</ins><strong>danielmconrad</strong>
           </a>
         </li>
         <li>
-          <a href="https://medium.com/@danmconrad">
+          <a href="https://medium.com/@danielmconrad">
             <Icon type="medium" className={styles.icon} />
-            <ins>medium.com/@</ins><strong>danmconrad</strong>
+            <ins>medium.com/@</ins><strong>danielmconrad</strong>
           </a>
         </li>
         <li>
-          <a href="http://cv.danmconrad.com">
+          <a href="http://cv.danielmconrad.com">
             <Icon type="resume" className={styles.icon} />
             <strong>printable resume</strong>
           </a>
